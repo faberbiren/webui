@@ -1,4 +1,4 @@
-pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchtext==0.14.1 torchaudio==0.13.1 torchdata==0.5.1 --extra-index-url https://download.pytorch.org/whl/cu117
+pip install torch==2.6.0+cu117 torchvision==0.20.1+cu117 torchtext==0.18.0 torchaudio==2.6.0 torchdata==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu117
 
 git clone -b stable2 https://github.com/neuralninja22/sd-webui /content/$1
 if [ $2 == True ]; then
